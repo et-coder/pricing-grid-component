@@ -122,7 +122,7 @@ body {
 
 @media only screen and (min-width: 1024px) {
     .container {
-        max-width: 600px;
+        max-width: 650px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 45% 55%;
@@ -132,10 +132,14 @@ body {
         grid-column: span 2;
     }
 
+    .hero-body {
+        width: 90%;
+    }
+
     .hero,
     .subscription,
     .why-us {
-        padding: 30px;
+        padding: 40px;
     }
 
 }
